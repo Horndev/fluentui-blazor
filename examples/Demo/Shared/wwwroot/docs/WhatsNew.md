@@ -1,3 +1,68 @@
+## V4.11.4
+
+
+### Icons and Emoji
+- Update to Fluent UI System Icons 1.1.273 (changes since 1.1.270)
+
+  **What's new (Name / Size(s) / Variant(s))**
+  - Design Ideas / 16, 20, 24, 28, 32, 48 / Color
+  - Desk Multiple / 20, 24 / Filled & Regular
+  - Fast Forward Circle / 24 / Color
+  - Hand Multiple / 16, 20, 24, 28 / Filled & Regular
+  - Image Add / 28, 32, 48 / Filled & Regular
+  - Lightbulb Filament / 16, 20, 24, 28, 32, 48 / Color
+  - Play Circle Hint Half / 20, 24 / Filled & Regular
+  - Shield Arrow Right / 16, 20, 24, 28, 32, 48 / Filled & Regular
+  - Slide Text Sparkle / 16, 20, 24, 28, 32, 48 / Color
+  - Text List Abc Lowercase LTR / 20, 24 / Filled & Regular
+  - Text List Abc Uppercase LTR / 20, 24 / Filled & Regular
+  - Text List Roman Numeral Lowercase / 20, 24 / Filled & Regular
+  - Text List Roman Numeral Uppercase / 20, 24 / Filled & Regular
+
+
+  **What's updated (Name / Size(s) / Variant(s))**
+  - Diversity / 16, 20, 24, 28, 48 / Filled & Regular
+  - Guest Add / 20, 24 / Filled & Regular
+  - Guest / 12, 16, 20, 24, 28, 32, 48 / Filled & Regular
+  - Image Add / 24 / Filled & Regular
+
+## V4.11.3
+
+### Components
+- \[DataGrid\] Fix cell height issue and make header really sticky ([#3173](https://github.com/microsoft/fluentui-blazor/pull/3173))
+- \[Tabs\] Remove height compensation ([#3149](https://github.com/microsoft/fluentui-blazor/pull/3149))
+
+## V4.11.2
+
+### Components
+- \[DataGrid\] Add SingleSticky selection mode ([#3150](https://github.com/microsoft/fluentui-blazor/pull/3150))
+- \[DataGrid\] Tweak `display: flex` and DataGridDisplayMode.Table ([#3156](https://github.com/microsoft/fluentui-blazor/pull/3156))
+- \[DataGrid\] Make Empty/Loading row not respond to hover and `OnRowClick` ([#3166](https://github.com/microsoft/fluentui-blazor/pull/3166))
+
+## V4.11.1
+
+### Components
+- \[Accordion\] Fix `Expanded` state not being set in `OnAccordionItemChange` ([#3092](https://github.com/microsoft/fluentui-blazor/pull/3092))
+- \[Anchor\] Do not apply inline margin for hypertext by default ([#3131](https://github.com/microsoft/fluentui-blazor/pull/3131))
+- \[DataGrid\] Header needs `display: flex` in certain scenarios, multiline-text class must not be added to header ([#3118](https://github.com/microsoft/fluentui-blazor/pull/3118))
+- \[DataGrid\] Fix issue when scrolling horizontally and `Virtualize="true"` ([#3117](https://github.com/microsoft/fluentui-blazor/pull/3117))
+- \[DataGrid\] Fix script being to eager on processing arrow keys ([#3091](https://github.com/microsoft/fluentui-blazor/pull/3091))
+- \[DataGrid\] Make combination of `ResizableColumns` and `AutoFit` work ([#3098](https://github.com/microsoft/fluentui-blazor/pull/3098))
+- \[DataGrid\] Restore `OnRowFocus` and `OnCellFocus` ([#3097](https://github.com/microsoft/fluentui-blazor/pull/3097))
+- \[DataGrid\] Smoother resizing ([#3072](https://github.com/microsoft/fluentui-blazor/pull/3072))
+- \[Dialog\] Add event before closing panel to allow validation ([#2614](https://github.com/microsoft/fluentui-blazor/pull/2614))
+- \[DialogHeader\] Allow dialog title exclusion from tab index ([#3137](https://github.com/microsoft/fluentui-blazor/pull/3137))
+- \[FluentSlider\] \[FluentNumberField\] Fix #2948 ([#3077](https://github.com/microsoft/fluentui-blazor/pull/3077))
+- \[ListComponentBase\] Invoke `ValueChanged` when initially selecting an option ([#3105](https://github.com/microsoft/fluentui-blazor/pull/3105))
+- \[ListComponentBase\] Fix `SelectedOptionsChanged` being Invoked twice ([#3119](https://github.com/microsoft/fluentui-blazor/pull/3119))
+- \[Rating\] Add reset by keyboard option ([#3073](https://github.com/microsoft/fluentui-blazor/pull/3073))
+- \[Stack\] Add `SpaceBetween` and `Stretch` to horizontal and vertical alignment options ([#3143](https://github.com/microsoft/fluentui-blazor/pull/3143))
+- \[Templates\] Fix `[StreamRender]` error occurring in certain situations ([#3090](https://github.com/microsoft/fluentui-blazor/pull/3090))
+
+### Demo site and documentation
+- \[Docs\] Update DataGridMultiSelect blockquote sample ([#3139](https://github.com/microsoft/fluentui-blazor/pull/3139))
+
+ 
 ## V4.11.0
 
 ### Breaking changes and important notes
